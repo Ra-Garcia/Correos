@@ -1,0 +1,11 @@
+C:\Users\SOPORTE TECNICO\ProyectoCorreos\ProyectoCorreos\bin\Debug\ProyectoCorreos.exe.config
+C:\Users\SOPORTE TECNICO\ProyectoCorreos\ProyectoCorreos\bin\Debug\ProyectoCorreos.exe
+C:\Users\SOPORTE TECNICO\ProyectoCorreos\ProyectoCorreos\bin\Debug\ProyectoCorreos.pdb
+C:\Users\SOPORTE TECNICO\ProyectoCorreos\ProyectoCorreos\obj\Debug\ProyectoCorreos.csproj.AssemblyReference.cache
+C:\Users\SOPORTE TECNICO\ProyectoCorreos\ProyectoCorreos\obj\Debug\ProyectoCorreos.Main.resources
+C:\Users\SOPORTE TECNICO\ProyectoCorreos\ProyectoCorreos\obj\Debug\ProyectoCorreos.frmProfesion.resources
+C:\Users\SOPORTE TECNICO\ProyectoCorreos\ProyectoCorreos\obj\Debug\ProyectoCorreos.Properties.Resources.resources
+C:\Users\SOPORTE TECNICO\ProyectoCorreos\ProyectoCorreos\obj\Debug\ProyectoCorreos.csproj.GenerateResource.cache
+C:\Users\SOPORTE TECNICO\ProyectoCorreos\ProyectoCorreos\obj\Debug\ProyectoCorreos.csproj.CoreCompileInputs.cache
+C:\Users\SOPORTE TECNICO\ProyectoCorreos\ProyectoCorreos\obj\Debug\ProyectoCorreos.exe
+C:\Users\SOPORTE TECNICO\ProyectoCorreos\ProyectoCorreos\obj\Debug\ProyectoCorreos.pdb
