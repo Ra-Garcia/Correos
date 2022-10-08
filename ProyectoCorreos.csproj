@@ -46,6 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cartera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cartera.Designer.cs">
+      <DependentUpon>Cartera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Campañas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Campañas.Designer.cs">
+      <DependentUpon>Campañas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cumpleaños.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cumpleaños.Designer.cs">
+      <DependentUpon>Cumpleaños.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dividendos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dividendos.Designer.cs">
+      <DependentUpon>Dividendos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +84,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Cartera.resx">
+      <DependentUpon>Cartera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Campañas.resx">
+      <DependentUpon>Campañas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cumpleaños.resx">
+      <DependentUpon>Cumpleaños.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dividendos.resx">
+      <DependentUpon>Dividendos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
