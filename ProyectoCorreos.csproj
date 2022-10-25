@@ -86,6 +86,7 @@
     <Compile Include="Campañas.Designer.cs">
       <DependentUpon>Campañas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Correo.cs" />
     <Compile Include="Cumpleaños.cs">
       <SubType>Form</SubType>
     </Compile>
