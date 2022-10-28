@@ -1,11 +1,8 @@
 ﻿
 namespace ProyectoCorreos
 {
-    partial class frmProfesion
+    partial class frmCampañas
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
@@ -34,8 +31,6 @@ namespace ProyectoCorreos
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1
@@ -79,33 +74,14 @@ namespace ProyectoCorreos
             this.label2.TabIndex = 5;
             this.label2.Text = "NOMBRE DE CAMPAÑA";
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(145, 78);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 7;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 81);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 13);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "PROFESION";
-            // 
-            // frmProfesion
+            // frmCampañas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BackColor = System.Drawing.Color.Silver;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(300, 300);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.comboBox1);
+            this.ClientSize = new System.Drawing.Size(600, 300);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
@@ -114,7 +90,7 @@ namespace ProyectoCorreos
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "frmProfesion";
+            this.Name = "frmCampañas";
             this.Text = "Profesion";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -128,7 +104,5 @@ namespace ProyectoCorreos
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label3;
     }
 }

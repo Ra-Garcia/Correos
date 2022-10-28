@@ -6,6 +6,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Resources;
+using System.IO;
 using System.Windows.Forms;
 
 namespace ProyectoCorreos
@@ -66,6 +68,24 @@ namespace ProyectoCorreos
             frmCartera.TopLevel = false;
             pMain.Controls.Add(frmCartera);
             frmCartera.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DiseñoCorreo PrevisualizarCorreo = new DiseñoCorreo();
+            PrevisualizarCorreo.webBrowser1.AllowWebBrowserDrop = false;
+            PrevisualizarCorreo.webBrowser1.Url = new Uri("http://www.contoso.com/");
+            PrevisualizarCorreo.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ofdPlantilla.Filter = "Html|*.html";
+            ofdPlantilla.Title = "Elige la plantilla";
+            //File.Create()
+            string appPath = Application.StartupPath;
+            textBox1.Text = appPath;
+                //ofdPlantilla.ShowDialog();
         }
     }
 }

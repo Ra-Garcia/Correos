@@ -74,61 +74,70 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cartera.cs">
+    <Compile Include="FormasSecundarias\Cartera.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cartera.Designer.cs">
+    <Compile Include="FormasSecundarias\Cartera.Designer.cs">
       <DependentUpon>Cartera.cs</DependentUpon>
     </Compile>
-    <Compile Include="Campañas.cs">
+    <Compile Include="FormasSecundarias\Campañas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Campañas.Designer.cs">
+    <Compile Include="FormasSecundarias\Campañas.Designer.cs">
       <DependentUpon>Campañas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Correo.cs" />
-    <Compile Include="Cumpleaños.cs">
+    <Compile Include="Clases\Correo.cs" />
+    <Compile Include="FormasSecundarias\Cumpleaños.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cumpleaños.Designer.cs">
+    <Compile Include="FormasSecundarias\Cumpleaños.Designer.cs">
       <DependentUpon>Cumpleaños.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dividendos.cs">
+    <Compile Include="FormasSecundarias\DiseñoCorreo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dividendos.Designer.cs">
+    <Compile Include="FormasSecundarias\DiseñoCorreo.Designer.cs">
+      <DependentUpon>DiseñoCorreo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormasSecundarias\Dividendos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormasSecundarias\Dividendos.Designer.cs">
       <DependentUpon>Dividendos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Main.cs">
+    <Compile Include="FormasPrincipales\Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main.Designer.cs">
+    <Compile Include="FormasPrincipales\Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="Profesion.cs">
+    <Compile Include="FormasSecundarias\Profesion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Profesion.Designer.cs">
+    <Compile Include="FormasSecundarias\Profesion.Designer.cs">
       <DependentUpon>Profesion.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Cartera.resx">
+    <EmbeddedResource Include="FormasSecundarias\Cartera.resx">
       <DependentUpon>Cartera.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Campañas.resx">
+    <EmbeddedResource Include="FormasSecundarias\Campañas.resx">
       <DependentUpon>Campañas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Cumpleaños.resx">
+    <EmbeddedResource Include="FormasSecundarias\Cumpleaños.resx">
       <DependentUpon>Cumpleaños.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dividendos.resx">
+    <EmbeddedResource Include="FormasSecundarias\DiseñoCorreo.resx">
+      <DependentUpon>DiseñoCorreo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormasSecundarias\Dividendos.resx">
       <DependentUpon>Dividendos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main.resx">
+    <EmbeddedResource Include="FormasPrincipales\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Profesion.resx">
+    <EmbeddedResource Include="FormasSecundarias\Profesion.resx">
       <DependentUpon>Profesion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -153,6 +162,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Plantillas\Cumpleaños\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

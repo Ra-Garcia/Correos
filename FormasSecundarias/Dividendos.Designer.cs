@@ -1,7 +1,7 @@
 ﻿
 namespace ProyectoCorreos
 {
-    partial class frmCartera
+    partial class frmDividendos
     {
         private System.ComponentModel.IContainer components = null;
 
@@ -74,14 +74,14 @@ namespace ProyectoCorreos
             this.label2.TabIndex = 5;
             this.label2.Text = "NOMBRE DE CAMPAÑA";
             // 
-            // frmCartera
+            // frmDividendos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.BackColor = System.Drawing.Color.DarkGray;
+            this.BackColor = System.Drawing.Color.LightGray;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(300, 300);
+            this.ClientSize = new System.Drawing.Size(600, 300);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
@@ -90,7 +90,7 @@ namespace ProyectoCorreos
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "frmCartera";
+            this.Name = "frmDividendos";
             this.Text = "Profesion";
             this.ResumeLayout(false);
             this.PerformLayout();
